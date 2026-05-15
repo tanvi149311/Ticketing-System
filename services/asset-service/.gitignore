@@ -1,0 +1,30 @@
+# ── Dependencies ──────────────────────────────
+node_modules/
+**/node_modules/
+
+# ── Environment files ─────────────────────────
+.env
+**/.env
+
+# ── Build output ──────────────────────────────
+dist/
+build/
+**/dist/
+**/build/
+
+# ── Logs ──────────────────────────────────────
+logs/
+*.log
+**/logs/
+
+# ── OS files ──────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE files ─────────────────────────────────
+.vscode/
+.idea/
+
+# ── Coverage ──────────────────────────────────
+coverage/
+**/coverage/
